@@ -10,7 +10,6 @@ from utils import login, switch_to_db, switch_to_users_table, parse_database, pr
 
 load_dotenv()
 
-URL=os.getenv('URL')
 USERNAME=os.getenv('USERNAME')
 PASSWORD=os.getenv('PASSWORD')
 
